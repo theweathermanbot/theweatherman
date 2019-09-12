@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D632040C-78CA-4FD1-A794-593EFF11A136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2C3DFBDB-DED1-409B-91DC-328F3E8DE8C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8D2433B8-0183-46C4-83F2-C61A2829F7CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9B44D0E8-7FC2-446A-90FD-DB2C110583CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{12516E3F-6514-454E-B4BC-2A9E7969785C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Api.WebApi", "TheWeatherman.Api.WebApi\TheWeatherman.Api.WebApi.csproj", "{4A71C285-2234-433E-827E-00753588FA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Application.Contract", "TheWeatherman.Application.Contract\TheWeatherman.Application.Contract.csproj", "{8DB1E34A-C807-4B99-B780-F22C02256CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Application.Implementation", "TheWeatherman.Application.Implementation\TheWeatherman.Application.Implementation.csproj", "{18ABEF6C-450C-4B40-895C-ACBC50BC5469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Common.IoC", "TheWeatherman.Common.IoC\TheWeatherman.Common.IoC.csproj", "{8E461BF2-361F-4B0A-BEB9-6327215469AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Common", "TheWeatherman.Common\TheWeatherman.Common.csproj", "{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Persistence.Contract", "TheWeatherman.Persistence.Contract\TheWeatherman.Persistence.Contract.csproj", "{8DC5A1BE-C31B-41CD-841A-FF4361433F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Persistence.Implementation", "TheWeatherman.Persistence.Implementation\TheWeatherman.Persistence.Implementation.csproj", "{1F5E710B-C06E-40CB-ACB3-A2705738445C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Infrastructure.Contract", "TheWeatherman.Infrastructure.Contract\TheWeatherman.Infrastructure.Contract.csproj", "{52BA7FFB-6F2E-454A-B0F6-015E1631F914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Infrastructure.Implementation", "TheWeatherman.Infrastructure.Implementation\TheWeatherman.Infrastructure.Implementation.csproj", "{827A2D2C-0D95-4DB9-BA98-E176728C6487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A71C285-2234-433E-827E-00753588FA8D} = {D632040C-78CA-4FD1-A794-593EFF11A136}
+		{8DB1E34A-C807-4B99-B780-F22C02256CB6} = {2C3DFBDB-DED1-409B-91DC-328F3E8DE8C8}
+		{18ABEF6C-450C-4B40-895C-ACBC50BC5469} = {2C3DFBDB-DED1-409B-91DC-328F3E8DE8C8}
+		{8E461BF2-361F-4B0A-BEB9-6327215469AD} = {8D2433B8-0183-46C4-83F2-C61A2829F7CC}
+		{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA} = {8D2433B8-0183-46C4-83F2-C61A2829F7CC}
+		{8DC5A1BE-C31B-41CD-841A-FF4361433F4B} = {12516E3F-6514-454E-B4BC-2A9E7969785C}
+		{1F5E710B-C06E-40CB-ACB3-A2705738445C} = {12516E3F-6514-454E-B4BC-2A9E7969785C}
+		{52BA7FFB-6F2E-454A-B0F6-015E1631F914} = {9B44D0E8-7FC2-446A-90FD-DB2C110583CE}
+		{827A2D2C-0D95-4DB9-BA98-E176728C6487} = {9B44D0E8-7FC2-446A-90FD-DB2C110583CE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A71C285-2234-433E-827E-00753588FA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A71C285-2234-433E-827E-00753588FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A71C285-2234-433E-827E-00753588FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A71C285-2234-433E-827E-00753588FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18ABEF6C-450C-4B40-895C-ACBC50BC5469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18ABEF6C-450C-4B40-895C-ACBC50BC5469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18ABEF6C-450C-4B40-895C-ACBC50BC5469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18ABEF6C-450C-4B40-895C-ACBC50BC5469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E461BF2-361F-4B0A-BEB9-6327215469AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E461BF2-361F-4B0A-BEB9-6327215469AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E461BF2-361F-4B0A-BEB9-6327215469AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E461BF2-361F-4B0A-BEB9-6327215469AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B7A6F3-381E-4E3D-9F20-E63CE12124DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC5A1BE-C31B-41CD-841A-FF4361433F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC5A1BE-C31B-41CD-841A-FF4361433F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC5A1BE-C31B-41CD-841A-FF4361433F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC5A1BE-C31B-41CD-841A-FF4361433F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5E710B-C06E-40CB-ACB3-A2705738445C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5E710B-C06E-40CB-ACB3-A2705738445C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5E710B-C06E-40CB-ACB3-A2705738445C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5E710B-C06E-40CB-ACB3-A2705738445C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BA7FFB-6F2E-454A-B0F6-015E1631F914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BA7FFB-6F2E-454A-B0F6-015E1631F914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BA7FFB-6F2E-454A-B0F6-015E1631F914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BA7FFB-6F2E-454A-B0F6-015E1631F914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827A2D2C-0D95-4DB9-BA98-E176728C6487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827A2D2C-0D95-4DB9-BA98-E176728C6487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827A2D2C-0D95-4DB9-BA98-E176728C6487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827A2D2C-0D95-4DB9-BA98-E176728C6487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
