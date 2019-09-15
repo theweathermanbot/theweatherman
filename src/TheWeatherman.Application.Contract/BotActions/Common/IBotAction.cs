@@ -1,4 +1,4 @@
-using Telegram.Bot.Requests.Abstractions;
+using MediatR;
 using Telegram.Bot.Types;
 using TheWeatherman.Common.Result;
 
