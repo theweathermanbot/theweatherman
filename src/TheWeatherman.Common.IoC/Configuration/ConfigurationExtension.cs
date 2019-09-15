@@ -6,7 +6,7 @@ using Serilog.Exceptions;
 
 namespace TheWeatherman.Common.IoC.Configuration
 {
-    public class ConfigurationExtension
+    public static class ConfigurationExtension
     {
         public static IConfiguration LoadConfiguration()
         {
