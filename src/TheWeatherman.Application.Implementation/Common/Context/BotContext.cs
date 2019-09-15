@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Telegram.Bot.Types;
 using TheWeatherman.Application.Contract.Common.Client;
@@ -46,6 +47,13 @@ namespace TheWeatherman.Application.Implementation.Common.Context
             User = inlineQuery.From;
 
             Logger.LogTrace("Populated HttpContext with InlineQuery.", inlineQuery);
+        }
+
+        public async Task<string> GetBotName()
+        {
+            var me = await BotClient.Client.GetMeAsync();
+
+            return me.Username;
         }
     }
 }
