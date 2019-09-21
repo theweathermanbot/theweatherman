@@ -14,10 +14,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="BotActions" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\TheWeatherman.Application.Contract\TheWeatherman.Application.Contract.csproj" />
       <ProjectReference Include="..\TheWeatherman.Common\TheWeatherman.Common.csproj" />
     </ItemGroup>
