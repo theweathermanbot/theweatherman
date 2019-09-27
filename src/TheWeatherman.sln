@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{12516E3F-6514-454E-B4BC-2A9E7969785C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Api.WebApi", "TheWeatherman.Api.WebApi\TheWeatherman.Api.WebApi.csproj", "{4A71C285-2234-433E-827E-00753588FA8D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Application.Contract", "TheWeatherman.Application.Contract\TheWeatherman.Application.Contract.csproj", "{8DB1E34A-C807-4B99-B780-F22C02256CB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Application.Implementation", "TheWeatherman.Application.Implementation\TheWeatherman.Application.Implementation.csproj", "{18ABEF6C-450C-4B40-895C-ACBC50BC5469}"
@@ -34,13 +32,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Domain", "The
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Domain.Entity", "TheWeatherman.Domain.Entity\TheWeatherman.Domain.Entity.csproj", "{B2F2E10B-473C-4A00-AC11-1F381EC38438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWeatherman.Api.WebApi", "TheWeatherman.Api.WebApi\TheWeatherman.Api.WebApi.csproj", "{B69684A0-CED1-48EE-898C-97B0A0C61D7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4A71C285-2234-433E-827E-00753588FA8D} = {D632040C-78CA-4FD1-A794-593EFF11A136}
 		{8DB1E34A-C807-4B99-B780-F22C02256CB6} = {2C3DFBDB-DED1-409B-91DC-328F3E8DE8C8}
 		{18ABEF6C-450C-4B40-895C-ACBC50BC5469} = {2C3DFBDB-DED1-409B-91DC-328F3E8DE8C8}
 		{8E461BF2-361F-4B0A-BEB9-6327215469AD} = {8D2433B8-0183-46C4-83F2-C61A2829F7CC}
@@ -51,12 +50,9 @@ Global
 		{827A2D2C-0D95-4DB9-BA98-E176728C6487} = {9B44D0E8-7FC2-446A-90FD-DB2C110583CE}
 		{B6C57DCD-4F88-498D-A2EB-5217DB70D53D} = {088E27B8-8FAC-4B06-8E10-96B7329F714E}
 		{B2F2E10B-473C-4A00-AC11-1F381EC38438} = {088E27B8-8FAC-4B06-8E10-96B7329F714E}
+		{B69684A0-CED1-48EE-898C-97B0A0C61D7B} = {D632040C-78CA-4FD1-A794-593EFF11A136}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A71C285-2234-433E-827E-00753588FA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A71C285-2234-433E-827E-00753588FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A71C285-2234-433E-827E-00753588FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A71C285-2234-433E-827E-00753588FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB1E34A-C807-4B99-B780-F22C02256CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -97,5 +93,9 @@ Global
 		{B2F2E10B-473C-4A00-AC11-1F381EC38438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F2E10B-473C-4A00-AC11-1F381EC38438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F2E10B-473C-4A00-AC11-1F381EC38438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69684A0-CED1-48EE-898C-97B0A0C61D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69684A0-CED1-48EE-898C-97B0A0C61D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69684A0-CED1-48EE-898C-97B0A0C61D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69684A0-CED1-48EE-898C-97B0A0C61D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
