@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TheWeatherman.Application.Implementation.Configuration;
 
 namespace TheWeatherman.Api.WebApi.Configuration
 {
@@ -7,6 +8,7 @@ namespace TheWeatherman.Api.WebApi.Configuration
     {
         public static IServiceCollection AddDependencyInjection(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddApplicationDependencies(configuration);
             
             return services;
         }

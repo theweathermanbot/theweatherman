@@ -5,13 +5,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Serilog.AspNetCore" Version="3.0.0" />
       <PackageReference Include="Serilog.Exceptions" Version="5.3.1" />
       <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+      <PackageReference Include="Telegram.Bot" Version="14.11.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TheWeatherman.Application.Implementation\TheWeatherman.Application.Implementation.csproj" />
     </ItemGroup>
 
 </Project>
