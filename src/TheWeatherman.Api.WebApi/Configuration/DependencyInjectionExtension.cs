@@ -1,7 +1,7 @@
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TheWeatherman.Common.IoC.Dependency
+namespace TheWeatherman.Api.WebApi.Configuration
 {
     public static class DependencyInversionExtension
     {
